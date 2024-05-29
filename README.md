@@ -16,9 +16,7 @@ This is a Front End Web Development project.
 
 ### Description
 
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+Mock movie websites landing page. 
 
 ### Screenshot
 
