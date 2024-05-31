@@ -1,14 +1,55 @@
 
 /* ---- Base Rules ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: rgba(5, 89, 112, 0.819);
-    /* background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%); */
-    background-image: url("../assets/images/scary.png");
+    background: rgba(0, 0, 0, 0.819);
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/funny.png");
     background-repeat: no-repeat;
+    
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
 }
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(240, 4, 229);
+    height: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+        
+}
+
+.section1_container {
+    border: 2px solid greenyellow;
+    height: auto;
+    margin: 50px;
+}
+/* 
+img {
+    max-width: 100%;
+    height: auto;
+} */
+
+
+.play_button {
+    border: 2px solid white;
+    background-color: red;
+    padding: 6px;
+    width: 10%;
+}
+
 
 .video {
     border: 5px solid rgb(210, 210, 210);
