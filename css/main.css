@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgba(0, 0, 0, 0.819);
     /* width: 100vw;
@@ -30,6 +34,15 @@ body {
     margin-bottom: 100px;
         
 } */
+
+main {
+    margin: 10vh 1em 10vh;
+}
+
+section {
+    position: relative;
+    min-height: 80vh;
+}
 
 .section1_content {
     border: 2px solid greenyellow;
@@ -89,5 +102,19 @@ section {
     position: relative;
     min-height: 80vh;
 } */
+
+
+/* Navigation Styles*/
+.navbar_menu ul {
+    display: flex;
+    float: right;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.navbar_menu li {
+    display: inline-block;
+}
 
  
