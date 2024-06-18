@@ -24,7 +24,7 @@ Mock movie websites landing page.
 
 ### Links
 
-- Live Site URL: [Live Code]()
+- Live Site URL: [Live Code](https://meshia13.github.io/landing-page/)
 
 ## My process
 
