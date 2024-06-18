@@ -23,6 +23,43 @@ body {
     color: #fff;
 }
 
+header nav {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+
+.nav_menu ul {
+    display: flex;
+    float: right;
+    padding-right: 20px;
+    margin: 0 auto;
+    
+
+}
+
+.nav_menu li {
+    display: inline-block;
+}
+
+.nav_menu .menu_list a {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #001487;
+
+}
+
+.nav_menu .menu_list a:hover {
+    background: #001487;
+    color: #fff;
+    transition: ease 0.3s all;
+
+}
+
 /* #section1 {
     display: flex;
     justify-content: center;
